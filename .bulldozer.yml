@@ -12,6 +12,8 @@ merge:
     squash:
       body: summarize_commits
   delete_after_merge: true
+  required_statuses:
+    - "policy-bot-ets: master"
 
 update:
   trigger:
