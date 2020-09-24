@@ -1,10 +1,15 @@
 policy:
   approval:
     - or:
+      - owners can approve
       - dependabot updates
 
 # the list of rules
 approval_rules:
+  - name: catskills can approve
+    requires:
+      count: 1
+      users: ["josephktcheung"]
   - name: dependabot updates
     if:
       has_labels:
