@@ -6,7 +6,7 @@ policy:
 
 # the list of rules
 approval_rules:
-  - name: catskills can approve
+  - name: owners can approve
     requires:
       count: 1
       users: ["josephktcheung"]
