@@ -1,16 +1,10 @@
 policy:
   approval:
     - or:
-      - the owner has approved
       - dependabot updates
 
 # the list of rules
 approval_rules:
-  - name: the owner has approved
-    requires:
-      count: 1
-      users:
-        - "josephktcheung"
   - name: dependabot updates
     if:
       has_labels:
