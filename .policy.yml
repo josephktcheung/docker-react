@@ -1,7 +1,7 @@
 policy:
   approval:
     - or:
-      - the devtools team has approved
+      - the owner has approved
       - dependabot updates
 
 # the list of rules
