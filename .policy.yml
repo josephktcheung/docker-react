@@ -1,0 +1,9 @@
+policy:
+  approval:
+    - auto approval from dependabot
+
+approval_rules:
+  - name: auto approval from dependabot
+    requires:
+      count: 0
+      users: ["dependabot"]
