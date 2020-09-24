@@ -71,7 +71,7 @@ merge:
   # "required_statuses" is a list of additional status contexts that must pass
   # before bulldozer can merge a pull request. This is useful if you want to
   # require extra testing for automated merges, but not for manual merges.
-  # required_statuses:
+  required_statuses:
   #   - "ci/circleci: build"
   #   - "ci/circleci: frontend_test"
   #   - "ci/circleci: backend_test"
