@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: Sync
       id: sync
-      uses: josephktcheung/github-action@1.0.7
+      uses: josephktcheung/github-action@1.0.8
       with:
         githubToken: ${{ secrets.MY_TOKEN }}
